@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
+// 1start
 .kalamandir{
     width: 100%;
     height: 130px;
@@ -13,22 +14,27 @@
    align-items: center;
  list-style: none;
 }
-
+// end 2end
+// nav strat
 #Sarees{
 width: 100%;
-    height: 60px;
-   background-color: brown; 
+    height: 50px;
+   background-color: white; 
+   margin-left: 23%;
+   font-size: 16px;
   
 }
 .rees li{
     display: inline-block; 
+    background-color:white;
+    color: black;
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
     padding: 12px;
 }
 .rees li:hover{
-    background-color: coral;
+    
     color: red;
 }
 .drop{
@@ -38,10 +44,38 @@ width: 100%;
 ul li:hover .drop{
     display: block;
     position: absolute;
-    background-color: rgb(203, 223, 31);
     
 }
 
 .drop ul li{
     display: block;
 }
+// end nav2part
+// start main
+#image{
+    width: 100%;
+    height: 250px;
+    
+}
+.box1{
+    
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+h4{
+    font-size: 30px;
+text-align: center;
+}
+#part{
+    width: 100%;
+    height: 270px;
+    border: 2px solid black;
+
+}
+.part2{
+margin:12px 0px 0px 120px ;
+
+ }
+    
