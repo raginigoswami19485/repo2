@@ -3,14 +3,21 @@
     padding: 0%;
     box-sizing: border-box;
 }
-// 1start
+// 1start\
+body{
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
 .kalamandir{
     width: 100%;
     height: 130px;
    display: flex; 
+   font-size: large;
    flex-wrap: wrap;
   justify-content: space-between;
-  font-size: 15px;
    align-items: center;
  list-style: none;
 }
@@ -52,6 +59,13 @@ ul li:hover .drop{
 }
 // end nav2part
 // start main
+
+
+#divya{
+    width: 100%;
+    height: 600;
+}
+
 #image{
     width: 100%;
     height: 250px;
@@ -69,13 +83,60 @@ h4{
 text-align: center;
 }
 #part{
+   width: 100%;
+   height: 300px;
+   text-align: center;
+}
+// strart  part2
+#promix{
     width: 100%;
-    height: 270px;
-    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+gap: 60px;
+margin-top: 4%;
+}
+.mix{
+    margin-top: 5%;
+    color: black;
+    background-color: rgb(255, 243, 231);
+    font-size: 16px;
+    font-style: inherit;
+}
+.pro{
+    width: 250px;
+    height: 370px;
+}
+// <!-- end compalete -->
+// strat main part4
+#best{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.bests{
+    margin-top: 2%;
+}
+// end main part4
+// strat last part 5
+#output{
+    width: 100%;
+    height: 300px;
+   display: flex;
+   align-items: center;
 
 }
-.part2{
-margin:12px 0px 0px 120px ;
-
- }
+.outputs{
+//  width: 80%;
+//     height: 250px;
+margin-top: 1%;
+padding-left: 2%;
+}
+// end last part 5
+@media  {
     
+}

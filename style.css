@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .kalamandir {
   width: 100%;
   height: 130px;
   display: flex;
+  font-size: large;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-size: 15px;
   align-items: center;
   list-style: none;
 }
@@ -50,6 +56,11 @@ ul li:hover .drop {
   display: block;
 }
 
+#divya {
+  width: 100%;
+  height: 600;
+}
+
 #image {
   width: 100%;
   height: 250px;
@@ -69,10 +80,54 @@ h4 {
 
 #part {
   width: 100%;
-  height: 270px;
-  border: 2px solid black;
+  height: 300px;
+  text-align: center;
 }
 
-.part2 {
-  margin: 12px 0px 0px 120px;
+#promix {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 4%;
+}
+
+.mix {
+  margin-top: 5%;
+  color: black;
+  background-color: rgb(255, 243, 231);
+  font-size: 16px;
+  font-style: inherit;
+}
+
+.pro {
+  width: 250px;
+  height: 370px;
+}
+
+#best {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.bests {
+  margin-top: 2%;
+}
+
+#output {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.outputs {
+  margin-top: 1%;
+  padding-left: 2%;
 }/*# sourceMappingURL=style.css.map */
